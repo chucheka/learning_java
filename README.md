@@ -12,4 +12,10 @@
 
 ### Undo A Commit
 	1. `>$ git reset --soft HEAD^`
-	1. `>$ git rm --cached <filename>`
+	2. git checkout develop
+	
+### Undoing a commit to github
+	1. git revert <hash>
+	2. git push origin +<branch name>
+	 			OR
+	3. git push <repo name> +<badcommithash>^ : <branch>
