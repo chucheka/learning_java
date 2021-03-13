@@ -4,8 +4,7 @@
  git rm --cached <filename>
 
 ### Uncommit a commit before push
-	- Method 1
-		1.  git revert HEAD --no-edit
+	git revert HEAD --no-edit
 ### Change A Commit Message
  git commit --amend
 
